@@ -44,4 +44,18 @@
 			</set>
 		</property>
 	</bean>
+	
+	<bean id="teacher1" class="com.study.spring.case02.Teacher"
+		p:id="1" p:name="Bob">
+		
+		<property name="students">
+			<set>
+				<ref bean="student1"/>
+				<ref bean="student2"/>
+				<ref bean="student3"/>
+			</set>		
+		</property>
+	
+	
+	</bean>
 </beans>
