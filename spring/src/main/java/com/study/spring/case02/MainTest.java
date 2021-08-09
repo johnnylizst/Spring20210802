@@ -14,6 +14,8 @@ public class MainTest {
 		System.out.println(s2);
 		System.out.println(s3);
 		((ClassPathXmlApplicationContext)ctx).close();
+		
+		
 	}
 
 }
