@@ -6,6 +6,7 @@ public class Student {
 	
 	public Student() {
 		System.out.println("Student construstor");
+		System.out.println(super.toString());
 	}
 	
 	public void init() {
