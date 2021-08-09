@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.ToIntFunction;
 
-public class Teacher {
+public class Teacher2 {
 	private Integer id;
 	private String name;
 	private Set<Student> students;
