@@ -56,6 +56,26 @@
 			</set>		
 		</property>
 	
-	
+		<property name="subjects">
+			<list>
+				<value>Program</value>
+				<value>Math</value>
+				<value>English</value>
+				<value>Chinese</value>
+			</list>
+		</property>
+		
+		<property name="salary">
+			<map>
+				<entry key="base">
+					<value>50000</value>
+				</entry>
+				<entry key="addition">
+					<value>20000</value>
+				</entry>
+			</map>
+		</property>
+		
 	</bean>
+	
 </beans>
