@@ -39,6 +39,10 @@ public class Clazz {
 		Clazz other = (Clazz) obj;
 		return Objects.equals(credit, other.credit) && Objects.equals(id, other.id) && Objects.equals(name, other.name);
 	}
+	@Override
+	public String toString() {
+		return "Clazz [id=" + id + ", name=" + name + ", credit=" + credit + "]";
+	}
 	
 	
 }
