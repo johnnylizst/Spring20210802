@@ -13,5 +13,7 @@ public class MainTest3 {
 		System.out.println(t1.getTotalCredits());
 		Teacher t2 = (Teacher)ctx.getBean("teacher2");
 		System.out.println(t2);
+		Teacher t3 = (Teacher)ctx.getBean("teacher3");
+		System.out.println(t3);
 	}
 }
