@@ -16,6 +16,9 @@ public class MainTest5 {
 		
 		Paper3 p3 = (Paper3)ctx.getBean("paper3");
 		System.out.println(p3);
+		
+		Paper p4 = (Paper)ctx.getBean("paper4");
+		System.out.println(p4);
 	}
 
 }
