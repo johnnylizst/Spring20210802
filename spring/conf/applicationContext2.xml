@@ -8,6 +8,25 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 	
+	<!-- 手動配置 (字面值的配置) -->
+	<bean id="color" class="com.study.spring.case02.Color"
+		p:id="1" p:name="Yellow" />
+		
+	<bean id="red" class="com.study.spring.case02.Color"
+		p:id="2" p:name="Red" />
+		
+	<bean id="size" class="com.study.spring.case02.Size"
+		p:id="1" p:name="A4" />
+		
+	<bean id="b5" class="com.study.spring.case02.Size"
+		p:id="1" p:name="B5" />
+		
+		
+	<!-- 自動配置 -->
+	<bean id="paper" class="com.study.spring.case02.Paper" 
+		p:id="101" autowire="byName"/>
+	
+	
 	<!-- 資源文件加載 -->
 	<!--  <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location" value="user.properties"></property>
