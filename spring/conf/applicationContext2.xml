@@ -25,6 +25,12 @@
 	<!-- 自動配置 -->
 	<bean id="paper" class="com.study.spring.case02.Paper" 
 		p:id="101" autowire="byName"/>
+		
+	<bean id="paper2" class="com.study.spring.case02.Paper2" 
+		p:id="102" autowire="byName"/>
+	
+	<bean id="paper3" class="com.study.spring.case02.Paper3" 
+		p:id="103" autowire="constructor"/>
 	
 	
 	<!-- 資源文件加載 -->

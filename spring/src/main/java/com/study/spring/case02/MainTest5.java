@@ -10,6 +10,12 @@ public class MainTest5 {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext2.xml");
 		Paper p1 = (Paper)ctx.getBean("paper");
 		System.out.println(p1);
+		
+		Paper2 p2 = (Paper2)ctx.getBean("paper2");
+		System.out.println(p2);
+		
+		Paper3 p3 = (Paper3)ctx.getBean("paper3");
+		System.out.println(p3);
 	}
 
 }
